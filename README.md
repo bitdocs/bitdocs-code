@@ -10,4 +10,4 @@ If you need any help, or want to [contribute](../blob/master/CONTRIBUTING.md), p
 
 Sean: <sean@bitdocs.ml>
 
-Calum's Email: <calum@bitdocs.ml>
+Calum: <calum@bitdocs.ml>
