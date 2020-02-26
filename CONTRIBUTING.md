@@ -12,7 +12,7 @@ Contributing to a project like this is a great way to keep yourself engaged in c
 # Pull Request Guidelines
 
 We have some general guidelines we'd like you to follow when adding to or editing the site.
-If you think your pull request might be exempt from these rules, post it as an issue with the question tag.
+If you think your pull request might be exempt from these rules, post it as an issue with the question tag or shoot us an email.
 
 Guidelines:
 
