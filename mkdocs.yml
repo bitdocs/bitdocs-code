@@ -1,5 +1,6 @@
-site_name: 'Little Bits Docs'
+site_name: 'BitDocs'
 theme: cinder
+repo_url: https://github.com/bitdocs/bitdocs-code
 nav:
     - Home: index.md
     - About: about.md
