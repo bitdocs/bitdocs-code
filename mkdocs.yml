@@ -1,6 +1,9 @@
 site_name: 'BitDocs'
 theme: cinder
 repo_url: https://github.com/bitdocs/bitdocs-code
+site_url: https://bitdocs.ml
+site_description: A documentation for the Little Bits electronic components.
+site_author: Sean Maizel and Calum Dingwall
 nav:
     - Home: index.md
     - About: about.md
