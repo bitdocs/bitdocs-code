@@ -1,9 +1,7 @@
 # About 
 
-## Important Copyright Information
+This website was created to educate people about the functionality and use of the littleBits components.
 
-I do not own any of the products presented in this website, nor am I associated with Sphero Inc. This website was created solely for education purposes. All rights are reserved to Sphero Inc.
+## Disclaimer
 
-## Website Info
-
-This website was created to educate people who may be confused about the little bits on their functionality and use. No profit is being made on this website, and I don't plan to ever have ads on this site.
+We do not own any of the products presented in this website, nor are we associated with Sphero Inc. This website was created solely for education purposes. All rights are reserved to Sphero Inc. No profit is being made on this website, and we don't plan to ever have ads on this site.
