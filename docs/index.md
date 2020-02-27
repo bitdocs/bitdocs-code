@@ -1,7 +1,9 @@
-# Welcome!
+# BitDocs
 
-Welcome to the documentation on the LittleBits electronics.
-For students around us, the LittleBits can seem confusing, but we're here to show you that they're not.
-To start, we recommend looking at our [examples](placeholder) page, though feel free to look around at your leisure.
+Welcome to BitDocs, a documentation on the littleBits electronics kits.
 
-Also, if you need any support, shoot us an email at <webmaster@bitdocs.ml>
+For students around us, the littleBits can seem confusing, but we're here to show you that they're not.
+
+To start, we recommend looking at our [examples](placeholder) page where you can find some examples of simple circuits.
+
+If you need any support, email us at at <webmaster@bitdocs.ml>.
