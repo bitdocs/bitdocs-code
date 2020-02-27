@@ -12,7 +12,7 @@ This module is the most basic in this category, as it only requires one 9V Batte
 
 ### How to use
 
-To use the power module, you need two things. You need a 9V battery and a 9V battery clip connector.
+To use the power module, you need two things, a [9V battery](placeholder) and a 9V battery [clip connector](placeholder).
 
 Instructions:
 
@@ -23,16 +23,13 @@ Instructions:
 
 ### Other Info
 
-* Leave the power switch off while building your circuit, as it can cause unforseen circumstances
-* The power module has no input connector, as the module's only function is to deliver power to other components
-
-
+* Leave the power switch off while building your circuit, as it can cause unforseen circumstances.
 
 ## USB Power
 
 ![USB Power Bit](/images/usbpower.png)
 
-This module is very similar to the normal [Power](#power) module, though instead of using a 9V battery and clip converter, it has a Micro-USB connection that is used to supply power.
+This module is very similar to the normal [Power](#power) module, though instead of using a [9V battery](placeholder) and [clip converter](placeholder), it has a Micro-USB connection that is used to supply power.
 
 ### How to use
 
@@ -46,4 +43,3 @@ Instructions:
 ### Other Info
 
 * There is no power switch on this bit, so keep it unplugged from the power source or the circuit until the circuit is complete
-* Like the normal power module, there is no input, only output.
