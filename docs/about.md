@@ -4,7 +4,7 @@ This website was created to educate people about the functionality and use of th
 
 If you need any help, email us at <webmaster@bitdocs.ml>.
 
-This site was made by [Calum Dingwall]<calum@bitdocs.ml> and [Sean Maizel](sean@bitdocs.ml).
+This site was made by [Calum Dingwall](<calum@bitdocs.ml>) and [Sean Maizel](sean@bitdocs.ml).
 
 ## Disclaimer
 
