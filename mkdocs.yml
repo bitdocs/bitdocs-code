@@ -3,9 +3,11 @@ repo_url: https://github.com/bitdocs/bitdocs-code
 site_url: https://bitdocs.ml
 site_description: A documentation for the Little Bits electronic components.
 site_author: Sean Maizel and Calum Dingwall
-theme: cinder
 nav:
     - Home: index.md
     - About: about.md
     - Modules (Bits):
         Power: powerbits.md
+theme:
+    name: cinder
+    custom_dir: 'cinder-theme-ext/'
