@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #5F027E;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+    color: #5F027E;
+}
+.navbar-default {
+    background-color: #5F027E;
+    border-bottom: 3px #A06AB3 solid;
+}
+a {
+    color: #8803B4;
+}
+a:hover, a:focus {
+    color: #5F027E;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:focus, .navbar-default .dropdown-menu > li > a:hover, .navbar-default .dropdown-menu > .active > a, .navbar-default .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > a:hover, .navbar-default .navbar-nav > li > a:hover {
+    background-color: #A06AB3;
+}
+.navbar-nav .open .dropdown-menu {
+    background-color: #5F027E;
+}
