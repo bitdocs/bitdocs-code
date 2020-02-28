@@ -12,3 +12,5 @@ nav:
 theme:
     name: cinder
     custom_dir: 'cinder-theme-ext/'
+extra_css: 
+    - css/colors.css
