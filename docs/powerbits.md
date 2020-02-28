@@ -8,7 +8,7 @@ You must have one power module for your circuit to function, as without one of t
 
 ![Power Bit](/images/power.png)
 
-This module is the most basic in this category, as it only requires one 9V Battery. This will be the most common, as the small battery makes your circuits very portable.
+This module is the most basic in this category, as it only requires one 9V battery. This will be the most common, as the small battery makes your circuits very portable.
 
 ### How to use
 
@@ -29,7 +29,7 @@ Instructions:
 
 ![USB Power Bit](/images/usbpower.png)
 
-This module is very similar to the normal [Power](#power) module, though instead of using a [9V battery](placeholder) and [clip converter](placeholder), it has a Micro-USB connection that is used to supply power.
+This module is very similar to the normal [power](#power) module, though instead of using a [9V battery](placeholder) and [clip converter](placeholder), it has a Micro-USB connection that is used to supply power.
 
 ### How to use
 
