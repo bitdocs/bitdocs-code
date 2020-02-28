@@ -6,8 +6,4 @@ This is our repo for the MkDocs markdown code. To see the built site, see the [b
 _Please note that we have used [MkDocs](https://www.mkdocs.org/) and installed the [Cinder](https://github.com/chrissimpkins/cinder) theme package (using `pip install mkdocs-cinder`)._
 
 # Contact
-If you need any help, or want to [contribute](../master/CONTRIBUTING.md), please contact us:
-
-Sean: <sean@bitdocs.ml>
-
-Calum: <calum@bitdocs.ml>
+If you need any help, or want to [contribute](../master/CONTRIBUTING.md), please contact us at <github@bitdocs.ml>.
