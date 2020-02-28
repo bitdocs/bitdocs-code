@@ -8,7 +8,7 @@ nav:
     - Home: index.md
     - About: about.md
     - Modules (Bits):
-        Power: powerbits.md
+        Power: power.md
 theme:
     name: cinder
     custom_dir: 'cinder-theme-ext/'
