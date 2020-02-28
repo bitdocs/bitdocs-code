@@ -6,11 +6,11 @@ You must have one power module for your circuit to function, as without one of t
 
 ## Power
 
-![Power Bit](/images/power.png)
+![Power Bit](https://i.shgcdn.com/c023f827-c3fd-401e-b7f7-8c7522c5382f/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
 This module is the most basic in this category, as it only requires one 9V battery. This will be the most common, as the small battery makes your circuits very portable.
 
-### How to use
+### How to Use
 
 To use the power module, you need two things, a [9V battery](placeholder) and a 9V battery [clip connector](placeholder).
 
@@ -27,11 +27,11 @@ Instructions:
 
 ## USB Power
 
-![USB Power Bit](/images/usbpower.png)
+![USB Power Bit](https://i.shgcdn.com/b263983b-0279-4d40-b0a2-0e4d601d8ec7/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
 This module is very similar to the normal [power](#power) module, though instead of using a [9V battery](placeholder) and [clip converter](placeholder), it has a Micro-USB connection that is used to supply power.
 
-### How to use
+### How to Use
 
 To use this module, you need a power source that has a USB output (computer, battery bank, etc.), and a Micro-USB cable (Old android charging cables would work well).
 
