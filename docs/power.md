@@ -1,4 +1,4 @@
-# Power Modules
+# Power Bits
 
 These are bits that deliver power to all of the other bits in your circuit.
 

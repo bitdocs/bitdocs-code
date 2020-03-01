@@ -9,6 +9,7 @@ nav:
     - About: about.md
     - Modules (Bits):
         Power: power.md
+        Output: output.md
 theme:
     name: cinder
     custom_dir: 'cinder-theme-ext/'
