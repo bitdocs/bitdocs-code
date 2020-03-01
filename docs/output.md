@@ -31,3 +31,16 @@ Connect the bit to a powered circuit, and the bit will light up.
 ### Other Info
 
 * You can use the [dimmer](/placeholder) or [slide dimmer](/placeholder) bits to control the intensity of the LED's light.
+
+## Long LED
+
+![Long LED Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/1Sz0Vs-w.jpeg?v=1571439466)
+
+This bit is almost exactly the same as the normal [LED](#led) bit, but has a few key differences.
+
+Those differences are:
+
+* Outputs a bluish-white light instead of a bright green one.
+* As seen in the picture above, the LED is extended from the main electronic by a wire.
+
+##
