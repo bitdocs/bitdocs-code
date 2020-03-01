@@ -22,7 +22,7 @@ This bit is very simple, so simple it doesn't even need instructions. Simply con
 
 ![LED Bit](https://i.pinimg.com/originals/1a/c9/0c/1ac90c53588f45e317c4865428f3ded2.jpg)
 
-This bit will light up green when it recieves power. Like the buzzer, it also is very simple.
+This bit will light up green when it recieves power. Like the [buzzer](#buzzer), it also is very simple.
 
 ### How to Use
 
@@ -43,4 +43,8 @@ Those differences are:
 * Outputs a bluish-white light instead of a bright green one.
 * As seen in the picture above, the LED is extended from the main electronic by a wire.
 
-##
+## Bright LED
+
+![Bright LED Bit](https://www.stemfinity.com/image/cache/data/LittleBits/littleBits-Bright-LED-Module-1-500x554.jpg)
+
+The Bright LED is exactly the same as the normal [LED](#led) bit, but is much brighter and is colored white instead of green.
