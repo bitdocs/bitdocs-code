@@ -32,6 +32,8 @@ To install the packages in requirements.txt, open your terminal, navigate to the
 
 `pip install -r requirements.txt` 
 
-This will install both mkdocs and the cinder theme, and you will be able to test all your changes.
+This will install both MkDocs and the Cinder theme, and you will be able to test all your changes by runnning
 
-To find more information on mkdocs, check out their official [site](https://www.mkdocs.org/), and for info on writing in Markdown, check out [https://www.markdowntutorial.com/](https://www.markdowntutorial.com/).
+`mkdocs serve`
+
+To find more information on MkDocs, check out their official [site](https://www.mkdocs.org/), and for info on writing Markdown, check out [https://www.markdowntutorial.com/](https://www.markdowntutorial.com/).
