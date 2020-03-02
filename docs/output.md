@@ -30,7 +30,8 @@ Connect the bit to a powered circuit, and the bit will light up.
 
 ### Other Info
 
-* You can use the [dimmer](/placeholder) or [slide dimmer](/placeholder) bits to control the intensity of the LED's light.
+* You can use the [dimmer](/placeholder) or [slide dimmer](/placeholder) bits to control the intensity of the LED type bits.
+* The [light sensor](/placeholder) bit can be activated by any bit that produces light, including all LED type bits.
 
 ## Long LED
 
@@ -48,3 +49,19 @@ Those differences are:
 ![Bright LED Bit](https://www.stemfinity.com/image/cache/data/LittleBits/littleBits-Bright-LED-Module-1-500x554.jpg)
 
 The Bright LED is exactly the same as the normal [LED](#led) bit, but is much brighter and is colored white instead of green.
+
+## UV LED
+
+![UV LED Bit](https://i.shgcdn.com/fb839f6c-13af-437e-a7b1-f1507aef7bd4/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The UV LED is the same as the [long LED](#long-led) bit, though it emits UV light instead of normal, visible light.
+
+## IR LED
+
+![IR LED Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/O2ByM7FA_2048x.jpeg?v=1571439466)
+
+The IR LED follows the same pattern as the [UV LED](#uv-led) and [long LED](#long-led) bits, but emits infrared (IR) light instead of UV or visible light.
+
+### Other Info
+
+* Because it emits IR light, it can be used to activate the [remote trigger](/placeholder) bit.
