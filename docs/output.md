@@ -85,3 +85,20 @@ Some newer models, like the one pictured on the [littleBits website](https://lit
 ![Vibration Motor Bit](https://i.shgcdn.com/9a0f7dbb-b884-40a3-93c0-ab3685f9435d/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
 The vibration motor is very simple, just like most other output bits. When power is recieved, the metal disc connected to the main bit via the wire will begin to vibrate.
+
+## Speaker
+
+![Speaker Bit](https://i.shgcdn.com/81d28baf-e336-43f2-b7cb-9a0c3cee2165/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The speaker bit, also known as the synth speaker, produces sound when given an input from a sound producing bit
+
+### How to Use
+
+The speaker bit doesn't just produce sound when given power, it requires an [input](/placeholder) bit to know what sound to produce.
+
+Instructions:
+
+1. Connect a sound producing input bit to the power bit. (ex. [oscillator](/placeholder), [MP3 Player](/placeholder), [keyboard](/placeholder))
+2. Connect the speaker to the input bit.
+3. Tune the input bit and the speaker's volume as needed, then turn on the power and the synth speaker will start playing the tune.
+
