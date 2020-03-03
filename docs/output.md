@@ -102,3 +102,8 @@ Instructions:
 2. Connect the speaker to the input bit.
 3. Tune the input bit and the speaker's volume as needed, then turn on the power and the synth speaker will start playing the tune.
 
+## Fan
+
+![Fan Bit](https://i.shgcdn.com/ef1a70fd-e06a-4fd2-b89b-babc0a3548d1/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+When the fan bit recieves power, the fan connected to the bit will begin to spin.
