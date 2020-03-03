@@ -107,3 +107,13 @@ Instructions:
 ![Fan Bit](https://i.shgcdn.com/ef1a70fd-e06a-4fd2-b89b-babc0a3548d1/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
 When the fan bit recieves power, the fan connected to the bit will begin to spin.
+
+## DC Motor
+
+![DC Motor Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/DC_Motor_d_top_1512x.jpg?v=1571439468)
+
+The DC motor is a simple motor that can be controlled to run either clockwise, counter-clockwise, or vary in speed and direction by the amount of power given.
+
+### How to Use
+
+The DC motor has three different settings, cw (clockwise), ccw (counter-clockwise), and var (variable). While the clockwise and counter-clockwise settings are self-explanitory, the variable setting can be a bit tricky. The variable setting is controlled via the amount of power going through. Try it out by using a [dimmer](/placeholder) or [slide dimmer](/placeholder) with this bit.
