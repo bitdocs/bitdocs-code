@@ -11,7 +11,9 @@ nav:
         Power: power.md
         Inputs: input.md
         Logic and Wires: logic-wire.md
-        Outputs: output.md
+        Outputs:
+            Lights and Sound: output-ls.md
+            Movement and Display: output-md.md
 theme:
     name: cinder
     custom_dir: 'cinder-theme-ext/'
