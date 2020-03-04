@@ -9,7 +9,7 @@ nav:
     - About: about.md
     - Modules (Bits):
         Power: power.md
-        Output:
+        Outputs:
             Page 1: output.md
             Page 2: output-2.md
 theme:
