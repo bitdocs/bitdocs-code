@@ -12,10 +12,6 @@ All of these bits also pass electricity along, so connecting another bit to the 
 
 This bit creates a buzzing sound when recieving power. It's very simple as it can't be controlled too much and has a very simple use.
 
-### How to Use
-
-This bit is very simple, so simple it doesn't even need instructions. Simply connect the bit to a powered circuit, and the bit will start buzzing.
-
 ### Other Info
 
 * You can use the [dimmer](/placeholder) or [slide dimmer](/placeholder) bits to control the volume of the buzz.
@@ -25,10 +21,6 @@ This bit is very simple, so simple it doesn't even need instructions. Simply con
 ![LED Bit](https://i.pinimg.com/originals/1a/c9/0c/1ac90c53588f45e317c4865428f3ded2.jpg)
 
 This bit will light up green when it recieves power. Like the [buzzer](#buzzer), it also is very simple.
-
-### How to Use
-
-Connect the bit to a powered circuit, and the bit will light up.
 
 ### Other Info
 

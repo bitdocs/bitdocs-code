@@ -43,7 +43,7 @@ This bit has four different settings for counting. Those settings are up, down, 
 For the count category, both up and down count up and down respectively when they recieve a signal. This bit will **NOT** count up or down continuously if there is continuous power delivered, it will only occur when a new signal is recieved.
 For example, attaching a [button](/placeholder) before this bit will increase the count every time the button is pressed, because the bit is recieving a new signal. If this sounds confusing, play with it a little bit, and you'll get it eventually.
 
-For the read category, they will, no surprise, read the voltage and value of the current signal. If you attach this bit directly to the power on a read mode, it will read 5.0 on voltage mode, and 99 on value mode.
-You can use a [dimmer](/placeholder) to control the voltage and value. Both scale similarly to each other. The voltage ranges from 0(no power) to 5.0(full power), and the value ranges from 0(no power) to 99(full power).
+For the read category, the bit will, no surprise, read the voltage and value of the current signal. If you attach this bit directly to the power on a read mode, it will read 5.0 on voltage mode, and 99 on value mode.
+You can use a [dimmer](/placeholder) to control the voltage and value. Both scale similarly to each other. The voltage ranges from 0 (no power) to 5.0 (full power), and the value ranges from 0 (no power) to 99 (full power).
 
 [Click here to go to page 1.](/output)
