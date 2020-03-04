@@ -1,10 +1,12 @@
-# Output Bits
+# Output Bits (Lights and Sound)
 
 These are the bits that output something, whether it be a light, some type of signal, a sound, or something else.
 
 These bits actually do the work, as with just [input](/placeholder) and [logic](/placeholder) bits, nothing will happen, so you need an output bit for your device to function.
 
-All of these bits also pass electricity along, so connecting another bit to the end of an output will continue your device. This means you can have as many [buzzers](#buzzer), [speakers](/placeholder), and other noise making bits as you want! (Though we advise against this.)
+All of these bits also pass electricity along, so connecting another bit to the end of an output will continue your device. This means you can have as many [buzzers](#buzzer), [speakers](#speaker), and other noise making bits as you want! (Though we advise against this.)
+
+This section is all about the bits that produce lights and sound
 
 ## Buzzer
 
@@ -72,12 +74,6 @@ As you can see in the picture, the RGB LED bit has three dials that can be turne
 
 Some newer models, like the one pictured on the [littleBits website](https://littlebits.com/products/rgb-led) have slides instead of screwdriver dials, which makes adjusting the values much easier. These newer models work no different than the original ones, and the way you control the values is the only thing that has changed.
 
-## Vibration Motor
-
-![Vibration Motor Bit](https://i.shgcdn.com/9a0f7dbb-b884-40a3-93c0-ab3685f9435d/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The vibration motor is very simple, just like most other output bits. When power is recieved, the metal disc connected to the main bit via the wire will begin to vibrate.
-
 ## Speaker
 
 ![Speaker Bit](https://i.shgcdn.com/81d28baf-e336-43f2-b7cb-9a0c3cee2165/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
@@ -93,11 +89,3 @@ Instructions:
 1. Connect a sound producing input bit to the power bit. (ex. [oscillator](/placeholder), [MP3 Player](/placeholder), [keyboard](/placeholder))
 2. Connect the speaker to the input bit.
 3. Tune the input bit and the speaker's volume as needed, then turn on the power and the synth speaker will start playing the tune.
-
-## Fan
-
-![Fan Bit](https://i.shgcdn.com/ef1a70fd-e06a-4fd2-b89b-babc0a3548d1/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-When the fan bit recieves power, the fan connected to the bit will begin to spin.
-
-[Click here to go to page 2](/output-2)
