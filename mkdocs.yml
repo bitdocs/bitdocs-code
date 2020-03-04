@@ -9,6 +9,8 @@ nav:
     - About: about.md
     - Modules (Bits):
         Power: power.md
+        Inputs: input.md
+        Logic and Wires: logic-wire.md
         Outputs:
             Page 1: output.md
             Page 2: output-2.md
