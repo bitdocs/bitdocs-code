@@ -28,3 +28,25 @@ This bit has two knobs, time and feedback. The time knob controls the amount of 
 
 Remember, since a sound is produced with this bit, you will only be able to hear the sound by using the [speaker](/output-ls/#speaker) bit after it.
 
+## Dimmer
+
+![Dimmer Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/ua9EofWg_720x.jpeg?v=1571439466)
+
+The dimmer bit limits the amount of power that goes through it, thus reducing the intensity of things like [lights](/output-ls) and [buzzers](/output-ls/#buzzer).
+
+The more you turn the dimmer counter-clockwise, the less power there is, until there is no power going through at all. This can also be used to control the motion of the [servo](/output-md/#servo) in TURN mode.
+
+## Envelope
+
+![Envelope Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/yxg1ZcZw_2048x.jpeg?v=1580401247)
+
+This bit is used to change the character of a sound to fit a certain instrument.
+
+### How to Use
+
+The two main settings, attack and decay, determine how long or short the sound sounds. The attack setting determines how long the sound takes to ramp up to max volume. Zero attack would mean that the sound is instantly at max volume.
+
+The decay setting determines how long the sound takes to go down to zero. A zero decay would mean the sound is instantly over after the sound stops coming.
+
+The third connection point at the top allows you to trigger the effect with another bit, like the [keyboard](#keyboard).
+
