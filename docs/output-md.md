@@ -6,6 +6,8 @@ These bits actually do the work, as with just [input](/placeholder) and [logic](
 
 All of these bits also pass electricity along, so connecting another bit to the end of an output will continue your device. This means you can have as many [buzzers](#buzzer), [speakers](/placeholder), and other noise making bits as you want! (Though we advise against this.)
 
+This section is all about the bits that have moving parts or display data.
+
 ## DC Motor
 
 ![DC Motor Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/DC_Motor_d_top_1512x.jpg?v=1571439468)
