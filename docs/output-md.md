@@ -1,4 +1,4 @@
-# Output Bits (Page 2)
+# Output Bits (Movement and Display)
 
 These are the bits that output something, whether it be a light, some type of signal, a sound, or something else.
 
@@ -17,6 +17,18 @@ The DC motor is a simple motor that can be controlled to run either clockwise, c
 The DC motor has three different settings, cw (clockwise), ccw (counter-clockwise), and var (variable). While the clockwise and counter-clockwise settings are self-explanitory, the variable setting can be a bit tricky. The variable setting is controlled via the amount of power going through. Try it out by using a [dimmer](/placeholder) or [slide dimmer](/placeholder) with this bit.
 
 The [wheel](/placeholder) included with some kits can be attached to the motor to create an electric-powered wheel.
+
+## Vibration Motor
+
+![Vibration Motor Bit](https://i.shgcdn.com/9a0f7dbb-b884-40a3-93c0-ab3685f9435d/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The vibration motor is very simple, just like most other output bits. When power is recieved, the metal disc connected to the main bit via the wire will begin to vibrate.
+
+## Fan
+
+![Fan Bit](https://i.shgcdn.com/ef1a70fd-e06a-4fd2-b89b-babc0a3548d1/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+When the fan bit recieves power, the fan connected to the bit will begin to spin.
 
 ## Servo
 
@@ -46,4 +58,12 @@ For example, attaching a [button](/placeholder) before this bit will increase th
 For the read category, the bit will, no surprise, read the voltage and value of the current signal. If you attach this bit directly to the power on a read mode, it will read 5.0 on voltage mode, and 99 on value mode.
 You can use a [dimmer](/placeholder) to control the voltage and value. Both scale similarly to each other. The voltage ranges from 0 (no power) to 5.0 (full power), and the value ranges from 0 (no power) to 99 (full power).
 
-[Click here to go to page 1.](/output)
+## Bargraph
+
+![Bargraph Bit](https://i.shgcdn.com/8a84cbad-787b-4535-8acc-14e7575455fc/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The bargraph bit is similar to the [number](#number) bit's voltage read mode, but displays the information in a different way.
+
+### How to Use
+
+The bit only has one setting, and that is to read the voltage of the current signal. Since the normal power is 5V, if this bit is plugged directly into the power, it will read all the way up to five. However, using something like a [dimmer](/placeholder) to control power, you can lower the voltage of the current signal. At 1V, the bit will read to 1, at 2V, the bit will read to 2, and that continues up to five.
