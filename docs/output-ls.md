@@ -18,6 +18,22 @@ This bit creates a buzzing sound when recieving power. It's very simple as it ca
 
 * You can use the [dimmer](/placeholder) or [slide dimmer](/placeholder) bits to control the volume of the buzz.
 
+## Speaker
+
+![Speaker Bit](https://i.shgcdn.com/81d28baf-e336-43f2-b7cb-9a0c3cee2165/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The speaker bit, also known as the synth speaker, produces sound when given an input from a sound producing bit
+
+### How to Use
+
+The speaker bit doesn't just produce sound when given power, it requires an [input](/placeholder) bit to know what sound to produce.
+
+Instructions:
+
+1. Connect a sound producing input bit to the power bit. (ex. [oscillator](/placeholder), [MP3 Player](/placeholder), [keyboard](/placeholder))
+2. Connect the speaker to the input bit.
+3. Tune the input bit and the speaker's volume as needed, then turn on the power and the synth speaker will start playing the tune.
+
 ## LED
 
 ![LED Bit](https://i.pinimg.com/originals/1a/c9/0c/1ac90c53588f45e317c4865428f3ded2.jpg)
@@ -73,19 +89,3 @@ The RGB LED uses three dials (slides on some models) to control three values (re
 As you can see in the picture, the RGB LED bit has three dials that can be turned with the purple littleBits screwdriver. Adjusting these dials will control the amount of red, green, and blue that the LED outputs.
 
 Some newer models, like the one pictured on the [littleBits website](https://littlebits.com/products/rgb-led) have slides instead of screwdriver dials, which makes adjusting the values much easier. These newer models work no different than the original ones, and the way you control the values is the only thing that has changed.
-
-## Speaker
-
-![Speaker Bit](https://i.shgcdn.com/81d28baf-e336-43f2-b7cb-9a0c3cee2165/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The speaker bit, also known as the synth speaker, produces sound when given an input from a sound producing bit
-
-### How to Use
-
-The speaker bit doesn't just produce sound when given power, it requires an [input](/placeholder) bit to know what sound to produce.
-
-Instructions:
-
-1. Connect a sound producing input bit to the power bit. (ex. [oscillator](/placeholder), [MP3 Player](/placeholder), [keyboard](/placeholder))
-2. Connect the speaker to the input bit.
-3. Tune the input bit and the speaker's volume as needed, then turn on the power and the synth speaker will start playing the tune.
