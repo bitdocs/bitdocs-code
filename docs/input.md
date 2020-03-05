@@ -50,3 +50,46 @@ The decay setting determines how long the sound takes to go down to zero. A zero
 
 The third connection point at the top allows you to trigger the effect with another bit, like the [keyboard](#keyboard).
 
+## Keyboard
+
+![Keyboard Bit](https://i.shgcdn.com/ac13b0bb-5d3b-4fa3-b604-1e3447c3c252/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+This bit is similar to an electronic keyboard, as it allows you to play specific notes with keys.
+
+### How to Use
+
+The keyboard is similar to the [oscillator](#oscillator), in the way that it produces a tune. However, the keyboard has a similar layout to a piano, and plays specific notes rather than electronic tunes.
+
+Pressing a key will produce a tone, and that tone will come out depending on two key modes, hold and press. In press mode, the note will come out while a key is pressed, but not after. In hold mode, the last played note will continue to be played until the mode is changed or the power is cut.
+
+The octave slide on the left will change the octave. For you non music-savvy folks, when the slide is down, the notes will be lower, and when the slide is up, the notes will be higher.
+
+You'll notice there are two output connections. The normal postitioned one will output the sound signal according to what you pressed, the top one will output a normal 5V power signal when a key is pressed. This power output will still adhere to the key mode the keyboard is on.
+
+## Light Sensor
+
+![Light Sensor Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/0G5dBlAQ_2048x.jpeg?v=1580401388)
+
+This bit will gradually increase power as it is exposed to more and more light, or the reverse in dark mode. Its function is similar to the [button](#button), though it activates gradually with light rather than instantly with a press.
+
+### How to Use
+
+The light sensor gradually increases the power up to 5V (max power) as light increases. While the [button](#button) jumps instantly to 5V when pressed, the light sensor gradually works up to 5V as the light shined on it increases. The speed at which the light sensor gets to full power can be changed with the sensitivity slider.
+
+The light/dark mode switch will change in what ways the light sensor releases power. On light mode, the sensor will release power as light level goes up, but on dark mode, the sensor will release power as the light level goes down.
+
+### Other Info
+
+* Some older models may use a screwdriver dial instead of a slide for sensitivity. This works the same, however, you'll need to use the purple [screwdriver](/placeholder) to change the sensitivity setting
+
+## Microphone
+
+![Microphone Bit](https://i.shgcdn.com/01e9f4ed-6d3a-42a8-bc27-573548bc6a07/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The microphone bit recieves audio from a seperate device or through it's microphone, and sends either sound or a 5V signal out after it.
+
+### How to Use
+
+The microphone bit has two ways of inputting sound. The first is to simply play sound into the microphone. The second way is to connect an external device to the bit with a 3.5mm audio cable, and play music or sound on that device.
+
+When the microphone recieves sound in any way, it will then transmit that sound to the next bit in the device. However, the bit can change its mode from sound to other. In other mode, instead of sending a sound, it will send a simple 5V signal when a sound is recieved.
