@@ -93,3 +93,38 @@ The microphone bit recieves audio from a seperate device or through it's microph
 The microphone bit has two ways of inputting sound. The first is to simply play sound into the microphone. The second way is to connect an external device to the bit with a 3.5mm audio cable, and play music or sound on that device.
 
 When the microphone recieves sound in any way, it will then transmit that sound to the next bit in the device. However, the bit can change its mode from sound to other. In other mode, instead of sending a sound, it will send a simple 5V signal when a sound is recieved.
+
+## Mix
+
+![Mix Bit](https://i.shgcdn.com/ba8c1df4-71e9-4a9f-a1f7-71298f93a45d/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The mix bit allows you to combine to sound inputs into one output.
+
+### How to Use
+
+You can use something like an [oscillator](#oscillator) to generate the tune for the bit. The two dials on the large portion of the bit control the volume of each input. 
+
+## Motion Trigger
+
+![Motion Trigger Bit](https://i.shgcdn.com/6a256fe4-0415-4c81-ba84-10b830aa2cfc/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The motion trigger bit works similarly to the [button](#button), though instead of sending a signal on a click, it sends a signal when it detects movement.
+
+### Other Info
+
+* The range of this bit is around 10ft x 10ft, and is very sensitive, so don't feel like it's not working if it's constantly sending an on signal while you're working on it.
+
+## MP3 Player
+
+![MP3 Player Bit](https://i.shgcdn.com/fcfa6a25-66df-4c43-8a26-faae0f0cef79/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The MP3 player bit plays MP3 files off of a Micro-SD card inside the bit.
+
+### How to Use
+
+To start, load all of your mp3 files onto a micro-sd card and add a number in the front according to the order you want tracks to be played (ex: "bigman.mp3" and "smallboy.mp3" turn into "1bigman.mp3" and "2smallboy.mp3").
+The numbers do not have to be in the front without spaces, just the first thing on the file.
+
+The mode switch on the side determines how the tracks will be played. In once mode, it will play the current track once. In loop mode, it will continuously loop through the whole SD card. In next mode, it will just play the next track, and in all mode, it will play the whole card through once.
+
+You can connect the bit to a speaker to play the music, or output it with the 3.5mm output jack.
