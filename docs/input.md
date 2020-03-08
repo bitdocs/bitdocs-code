@@ -10,7 +10,7 @@ Many of these bits may sound confusing at first, but if you try them out for a l
 
 ![Button Bit](https://i.shgcdn.com/2413271a-cdce-4bab-aeb2-91b2ed6f6522/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
-The button acts like a gate, when you press it, it lets power through, but when it's not pressed, power isn't let through.
+When the button is pressed, it sends an ON signal. When it is not pressed, it sends an OFF signal.
 
 ## Delay
 
@@ -220,3 +220,21 @@ The sound trigger will send an ON signal when the sound in the room reaches a ce
 ![Temperature Sensor Bit](https://i.shgcdn.com/413e5535-025a-4c7a-b4fb-3eba9bfb71e4/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
 The temperature sensor works similarly to the [light sensor](#light-sensor), but reads the temperature instead of light. The bit also outputs the temperature read as a value, so you can attach a [number](/output-md/#number) bit to read the value. The mode switch on the side is used to change the value sent into Celsius or Farenheit.
+
+## Threshold
+
+![Threshold Bit](https://i.shgcdn.com/acf7e36a-7c7c-416c-a9a3-ca02477b1ee8/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The threshold bit doesn't let a signal pass unless it reaches a certain threshold. This is is best suited to be used with sensor bits that have a range of voltage they can produce.
+
+## Timeout
+
+![Timeout Bit](https://i.shgcdn.com/c7540760-50d5-4a7d-834a-2a546c801d4a/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The timeout bit sets a timer when it recieves an ON signal, and changes its output once the timer has run out. The screwdriver dial is used to adjust the length of the timer. The switch can change the mode from on-off (will send an ON signal until timer runs out) to off-on (will send an OFF singal until timer runs out), and vice versa.
+
+## Toggle Switch
+
+![Toggle Switch Bit](https://i.shgcdn.com/6802cdb0-d85d-4346-925a-14a22ce864ca/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The toggle switch works like the [slide switch](#slide-switch), but uses a lever instead of a slider.
