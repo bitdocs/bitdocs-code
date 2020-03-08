@@ -2,7 +2,7 @@
 
 These are the bits that output something, whether it be a light, some type of signal, a sound, or something else.
 
-These bits actually do the work, as with just [input](/placeholder) and [logic](/placeholder) bits, nothing will happen, so you need an output bit for your device to function.
+These bits actually do the work, as with just [input](/input-so) and [logic](/wire-dl) bits, nothing will happen, so you need an output bit for your device to function.
 
 All of these bits also pass electricity along, so connecting another bit to the end of an output will continue your device. This means you can have as many [buzzers](#buzzer), [speakers](#speaker), and other noise making bits as you want! (Though we advise against this.)
 
@@ -16,7 +16,7 @@ This bit creates a buzzing sound when recieving power. It's very simple as it ca
 
 ### Other Info
 
-* You can use the [dimmer](/placeholder) or [slide dimmer](/placeholder) bits to control the volume of the buzz.
+* You can use the [dimmer](/input-sw/#dimmer) or [slide dimmer](/input-sw/#slide-dimmer) bits to control the volume of the buzz.
 
 ## Speaker
 
@@ -26,11 +26,11 @@ The speaker bit, also known as the synth speaker, produces sound when given an i
 
 ### How to Use
 
-The speaker bit doesn't just produce sound when given power, it requires an [input](/placeholder) bit to know what sound to produce.
+The speaker bit doesn't just produce sound when given power, it requires an [input](/input-so) bit to know what sound to produce.
 
 Instructions:
 
-1. Connect a sound producing input bit to the power bit. (ex. [oscillator](/placeholder), [MP3 Player](/placeholder), [keyboard](/placeholder))
+1. Connect a sound producing input bit to the power bit. (ex. [oscillator](/input-so/#oscillator), [MP3 Player](/input-so/#mp3-player), [keyboard](/input-so/#keyboard))
 2. Connect the speaker to the input bit.
 3. Tune the input bit and the speaker's volume as needed, then turn on the power and the synth speaker will start playing the tune.
 
@@ -38,12 +38,12 @@ Instructions:
 
 ![LED Bit](https://i.pinimg.com/originals/1a/c9/0c/1ac90c53588f45e317c4865428f3ded2.jpg)
 
-This bit will light up green when it recieves power. Like the [buzzer](#buzzer), it also is very simple.
+This bit will light up green when it recieves power.
 
 ### Other Info
 
-* You can use the [dimmer](/placeholder) or [slide dimmer](/placeholder) bits to control the intensity of the LED type bits.
-* The [light sensor](/placeholder) bit can be activated by any bit that produces light, including all LED type bits.
+* You can use the [dimmer](/input-sw/#dimmer) or [slide dimmer](/input-sw/#slide-dimmer) bits to control the intensity of the LED bits.
+* The [light sensor](/input-se/#light-sensor) bit can be activated by any bit that produces light, including all LED bits.
 
 ## Long LED
 
@@ -66,7 +66,7 @@ The Bright LED is exactly the same as the normal [LED](#led) bit, but is much br
 
 ![UV LED Bit](https://i.shgcdn.com/fb839f6c-13af-437e-a7b1-f1507aef7bd4/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
-The UV LED is the same as the [long LED](#long-led) bit, though it emits UV light instead of normal, visible light.
+The UV LED is the same as the [long LED](#long-led) bit, though it emits ultraviolet (UV) light instead of normal, visible light.
 
 ## IR LED
 
@@ -76,7 +76,7 @@ The IR LED follows the same pattern as the [UV LED](#uv-led) and [long LED](#lon
 
 ### Other Info
 
-* Because it emits IR light, it can be used to activate the [remote trigger](/placeholder) bit.
+* Because it emits IR light, it can be used to activate the [remote trigger](/input-se/#remote-trigger) bit.
 
 ## RGB LED
 
@@ -88,4 +88,4 @@ The RGB LED uses three dials (slides on some models) to control three values (re
 
 As you can see in the picture, the RGB LED bit has three dials that can be turned with the purple littleBits screwdriver. Adjusting these dials will control the amount of red, green, and blue that the LED outputs.
 
-Some newer models, like the one pictured on the [littleBits website](https://littlebits.com/products/rgb-led) have slides instead of screwdriver dials, which makes adjusting the values much easier. These newer models work no different than the original ones, and the way you control the values is the only thing that has changed.
+**NOTE: Some newer models, like the one pictured on the [littleBits website](https://littlebits.com/products/rgb-led) have slides instead of screwdriver dials, which makes adjusting the values much easier. These newer models work no different than the original ones, and the way you control the values is the only thing that has changed.**

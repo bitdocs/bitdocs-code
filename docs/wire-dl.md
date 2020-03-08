@@ -12,7 +12,7 @@ It outputs an ON signal only when input 1 AND input 2 are both receiving an ON s
 ## NAND
 ![NAND bit](https://i.shgcdn.com/5c06dd06-9a7e-47d2-b33a-457df6012ff2/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
-It is the opposite of an [AND gate](#AND), so it sends an OFF when both inputs are sending ON, and ON when an [AND gate](#AND) is normally sending an OFF.
+It is the opposite of an [AND gate](#and-aka-double-and), so it sends an OFF when both inputs are sending ON, and ON when an [AND gate](#and-aka-double-and) is normally sending an OFF.
 
 ## OR
 ![OR bit](https://i.shgcdn.com/3d6c8e96-5536-4b28-9327-5c6c7c931972/-/format/auto/-/preview/3000x3000/-/quality/lighter/)

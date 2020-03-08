@@ -8,13 +8,14 @@ These bits can interface with, or talk to, external computers and devices
 ![Makey Makey bit](https://i.shgcdn.com/e3448365-77bb-456f-a008-b74966408e47/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
 This bit has two functions:
+
 * It sends keystrokes over USB when a signal is sent to it.
 * It can send a signal, like a button, when it's contacts are shorted.
 
 ### How to Use
 
-* Either send a signal through one of its inputs, or short a key contact and the "Earth" contact by connecting them, to send the corresponding keystroke to a computer hooked up using a [Micro-USB cable](/placeholder).
-* Short a contact and the "Earth" contact by connecting them to send an ON signal out tthe corresponding output.
+* Either send a signal through one of its inputs, or short a key contact and the "Earth" contact by connecting them, to send the corresponding keystroke to a computer hooked up using a Micro-USB cable.
+* Short a contact and the "Earth" contact by connecting them to send an ON signal out the corresponding output.
 
 ### Other Info
 
@@ -27,11 +28,11 @@ It is a tiny computer called a microcontroller. It allows you to add programming
 
 ### How to Use
 
-To load code onto the bit, connect it to your computer with a [Micro-USB cable](/placeholder). Once you’ve loaded the code, it will stay on the bit, even if you disconnect it from the computer. If you leave it connected, you can also use it to send messages between your circuit and your computer. 
+To load code onto the bit, connect it to your computer with a Micro-USB cable. Once you’ve loaded the code, it will stay on the bit, even if you disconnect it from the computer. If you leave it connected, you can also use it to send messages between your circuit and your computer. 
 
 ### Other Info
 
-To learn more about how to use the Arduino Bit, check out our Arduino resources page [here](http://discuss.littlebits.cc/t/getting-started-with-arduino/109).
+To learn more about how to use the Arduino Bit, check out the Arduino resources page [here](http://discuss.littlebits.cc/t/getting-started-with-arduino/109).
 
 ## CloudBit
 ![CloudBit](https://cdn.shopify.com/s/files/1/1494/3290/products/Cloud_1LR_720x.jpg?v=1571439465)
@@ -43,6 +44,7 @@ This bit provides an easy way to create IoT devices, using the Internet of Thing
 ### How to Use
 
 There are three ways to interact with the bit:
+
 * The [littleBits Cloud Control](https://control.littlebitscloud.cc)
 * [IFTTT (If This Then That)](https://ifttt.com/littlebits)
 * The [littleBits API](https://developers.littlebitscloud.cc)
@@ -50,6 +52,7 @@ There are three ways to interact with the bit:
 ### Other Info
 
 There are a few places to help get started:
+
 * [CloudBit Getting Started Guide](https://auth.littlebits.com/cloudstart)
 * [Cloud Control Getting Started Guide](https://discuss.littlebits.cc/t/getting-started-with-the-cloudbit/22483)
 * [CloudBit API Guide](https://gist.github.com/daniellevass/67a13943be883e88df39)
@@ -61,7 +64,7 @@ This bit allows you send and receive digital audio and control voltages to and f
 
 ### How to Use
 
-It connects to a computer using a [Micro-USB cable](/placeholder).
+It connects to a computer using a Micro-USB cable.
 You can use it for:
 
 * Sending and receiving control voltages allows you to use software programs like Max, PD, and CV Toolkit with the bit to control other bits.

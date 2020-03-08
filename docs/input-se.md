@@ -20,7 +20,7 @@ While the [button](/input-sw/#button) jumps instantly to 5V when pressed, the li
 
 The light/dark mode switch will change in what ways the light sensor releases power. On light mode, the sensor will release power as light level goes up, but on dark mode, the sensor will release power as the light level goes down.
 
-**NOTE: Some older models may use a screwdriver dial instead of a slide for sensitivity. This works the same, however, you'll need to use the purple [screwdriver](/placeholder) to change the sensitivity setting**
+**NOTE: Some older models may use a screwdriver dial instead of a slide for sensitivity. This works the same, however, you'll need to use the purple screwdriver to change the sensitivity setting**
 
 ## Motion Trigger
 
@@ -48,7 +48,7 @@ This bit works similarly to the [light sensor](#light-sensor), but sends power b
 
 ![Remote Trigger Bit](https://i.shgcdn.com/09e71eb2-5187-4f93-a007-12b6ca6fc3e1/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
-The remote trigger bit will send a signal when it recieves an IR signal. Things that can trigger this include your TV remote or the [IR LED](/placeholder).
+The remote trigger bit will send a signal when it recieves an IR signal. Things that can trigger this include your TV remote or the [IR LED](/output-ls/#ir-led).
 
 ## Sound Trigger
 
