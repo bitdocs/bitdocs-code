@@ -24,8 +24,6 @@ This bit only works when given a sound with a bit like the [oscillator](#oscilla
 
 This bit has two knobs, time and feedback. The time knob controls the amount of time each sound and each silence lasts for. The feedback knob controls how many times the sound will repeat. If the feedback is turned up to the max, the sound will repeat forever.
 
-Remember, since a sound is produced with this bit, you will only be able to hear the sound by using the [speaker](/output-ls/#speaker) bit after it.
-
 ## Dimmer
 
 ![Dimmer Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/ua9EofWg_720x.jpeg?v=1571439466)
@@ -80,9 +78,7 @@ The light sensor gradually increases the power up to 5V (max power) as light inc
 
 The light/dark mode switch will change in what ways the light sensor releases power. On light mode, the sensor will release power as light level goes up, but on dark mode, the sensor will release power as the light level goes down.
 
-### Other Info
-
-Some older models may use a screwdriver dial instead of a slide for sensitivity. This works the same, however, you'll need to use the purple [screwdriver](/placeholder) to change the sensitivity setting
+**NOTE: Some older models may use a screwdriver dial instead of a slide for sensitivity. This works the same, however, you'll need to use the purple [screwdriver](/placeholder) to change the sensitivity setting**
 
 ## Microphone
 
@@ -125,7 +121,7 @@ The MP3 player bit plays MP3 files off of a Micro-SD card inside the bit.
 ### How to Use
 
 To start, load all of your mp3 files onto a micro-sd card and add a number in the front according to the order you want tracks to be played (ex: "bigman.mp3" and "smallboy.mp3" turn into "1bigman.mp3" and "2smallboy.mp3").
-The numbers do not have to be in the front without spaces, just the first thing on the file.
+The numbers do not have to be in the front without spaces, just the first thing in the file's name.
 
 The mode switch on the side determines how the tracks will be played. In once mode, it will play the current track once. In loop mode, it will continuously loop through the whole SD card. In next mode, it will just play the next track, and in all mode, it will play the whole card through once.
 
@@ -151,13 +147,13 @@ The pressure sensor works similarly to the [light sensor](#light-sensor), but se
 
 ## Proximity Sensor
 
-![Proximity Sensor Bit](https://i.shgcdn.com/bd5b3ece-239b-479a-841b-a6c6e11bee6b/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+![Proximity Sensor Bit](https://i.shgcdn.com/3917d9d1-2892-4519-ad5a-b9c847ae50b5/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
 This bit works similarly to the [light sensor](#light-sensor), but sends power based on how close an object is to the sensor.
 
 ## Pulse
 
-![Pulse Bit](https://i.shgcdn.com/dec22683-4e1f-495e-a5e2-537823d308d2/-/format/auto/-/preview/3000x3000/-/quality/lighter/0
+![Pulse Bit](https://i.shgcdn.com/dec22683-4e1f-495e-a5e2-537823d308d2/-/format/auto/-/preview/3000x3000/-/quality/lighter/0)
 
 The pulse bit sends power out at a consistent and specific rate that is determined by the slider on the bottom of the bit.
 
