@@ -54,14 +54,6 @@ You'll notice there are two output connections. The normal postitioned one will 
 
 This bit can be used in conjuction with the [oscillator](#oscillator) to change the tune, pitch, and waveform of the notes.
 
-### How to Use
-
-The light sensor gradually increases the power up to 5V (max power) as light increases. While the [button](#button) jumps instantly to 5V when pressed, the light sensor gradually works up to 5V as the light shined on it increases. The speed at which the light sensor gets to full power can be changed with the sensitivity slider.
-
-The light/dark mode switch will change in what ways the light sensor releases power. On light mode, the sensor will release power as light level goes up, but on dark mode, the sensor will release power as the light level goes down.
-
-**NOTE: Some older models may use a screwdriver dial instead of a slide for sensitivity. This works the same, however, you'll need to use the purple [screwdriver](/placeholder) to change the sensitivity setting**
-
 ## Microphone
 
 ![Microphone Bit](https://i.shgcdn.com/01e9f4ed-6d3a-42a8-bc27-573548bc6a07/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
@@ -121,4 +113,4 @@ The random bit can either send white noise or a random voltage each time a new s
 
 The noise setting will just send white noise, while the random voltage will create a random voltage that can control the tune of an oscillator.
 
-You will need a [pulse](#pulse) bit to keep generating new tunes, as the bit will only generate a new voltage on a new signal.
+You will need a [pulse](/input-sw/#pulse) bit to keep generating new tunes, as the bit will only generate a new voltage on a new signal.

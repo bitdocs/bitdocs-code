@@ -12,13 +12,21 @@ These bits go output a range of power based on how much of a certain thing they 
 
 ![Light Sensor Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/0G5dBlAQ_2048x.jpeg?v=1580401388)
 
-This bit will gradually increase power as it is exposed to more and more light, or the reverse in dark mode. Its function is similar to the [button](#button), though it activates gradually with light rather than instantly with a press.
+This bit will gradually increase power as it is exposed to more and more light, or the reverse in dark mode. Its function is similar to the [button](/input-sw/#button), though it activates gradually with light rather than instantly with a press.
+
+### How to Use
+
+While the [button](/input-sw/#button) jumps instantly to 5V when pressed, the light sensor gradually works up to 5V as the light shined on it increases. The speed at which the light sensor gets to full power can be changed with the sensitivity slider.
+
+The light/dark mode switch will change in what ways the light sensor releases power. On light mode, the sensor will release power as light level goes up, but on dark mode, the sensor will release power as the light level goes down.
+
+**NOTE: Some older models may use a screwdriver dial instead of a slide for sensitivity. This works the same, however, you'll need to use the purple [screwdriver](/placeholder) to change the sensitivity setting**
 
 ## Motion Trigger
 
 ![Motion Trigger Bit](https://i.shgcdn.com/6a256fe4-0415-4c81-ba84-10b830aa2cfc/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
-The motion trigger bit works similarly to the [button](#button), though instead of sending a signal on a click, it sends a signal when it detects movement.
+The motion trigger bit works similarly to the [button](/input-sw/#button), though instead of sending a signal on a click, it sends a signal when it detects movement.
 
 ### Other Info
 
