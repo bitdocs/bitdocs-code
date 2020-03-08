@@ -20,7 +20,7 @@ nav:
         Outputs:
             Lights and Sound: output-ls.md
             Movement and Display: output-md.md
-    - Examples: examples.md
+    - Examples: https://inventtolearn.com/littlebitsall.pdf
 theme:
     name: cinder
     custom_dir: 'cinder-theme-ext/'

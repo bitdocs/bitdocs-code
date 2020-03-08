@@ -6,4 +6,4 @@ For students around us, the littleBits can seem confusing, but we're here to sho
 
 To start, we recommend looking at our [examples](placeholder) page where you can find some examples of simple circuits.
 
-If you need any support, email us at at <webmaster@bitdocs.ml>.
+If you need any support, email us at <webmaster@bitdocs.ml>.
