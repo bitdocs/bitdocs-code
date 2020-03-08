@@ -10,9 +10,7 @@ Many of these bits may sound confusing at first, but if you try them out for a l
 
 ![Button Bit](https://i.shgcdn.com/2413271a-cdce-4bab-aeb2-91b2ed6f6522/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
-The button bit acts like a gate. When the button is unpressed, the gate is closed, and no power is let through. When the button is pressed, the gate is let open, and all the power that was backed up is let through.
-
-In layman's terms, when you press the button, the rest of the circuit turns on, and when you aren't pressing it, the circuit is off.
+The button acts like a gate, when you press it, it lets power through, but when it's not pressed, power isn't let through.
 
 ## Delay
 
@@ -62,9 +60,13 @@ The keyboard is similar to the [oscillator](#oscillator), in the way that it pro
 
 Pressing a key will produce a tone, and that tone will come out depending on two key modes, hold and press. In press mode, the note will come out while a key is pressed, but not after. In hold mode, the last played note will continue to be played until the mode is changed or the power is cut.
 
-The octave slide on the left will change the octave. For you non music-savvy folks, when the slide is down, the notes will be lower, and when the slide is up, the notes will be higher.
+The octave slide on the left will change the octave, meaning that when the slide is down, the notes are lower, and when the slide is up, the notes are higher.
 
 You'll notice there are two output connections. The normal postitioned one will output the sound signal according to what you pressed, the top one will output a normal 5V power signal when a key is pressed. This power output will still adhere to the key mode the keyboard is on.
+
+## Other Info
+
+This bit can be used in conjuction with the [oscillator](#oscillator) to change the tune, pitch, and waveform of the notes.
 
 ## Light Sensor
 
@@ -80,7 +82,7 @@ The light/dark mode switch will change in what ways the light sensor releases po
 
 ### Other Info
 
-* Some older models may use a screwdriver dial instead of a slide for sensitivity. This works the same, however, you'll need to use the purple [screwdriver](/placeholder) to change the sensitivity setting
+Some older models may use a screwdriver dial instead of a slide for sensitivity. This works the same, however, you'll need to use the purple [screwdriver](/placeholder) to change the sensitivity setting
 
 ## Microphone
 
@@ -112,7 +114,7 @@ The motion trigger bit works similarly to the [button](#button), though instead 
 
 ### Other Info
 
-* The range of this bit is around 10ft x 10ft, and is very sensitive, so don't feel like it's not working if it's constantly sending an on signal while you're working on it.
+The range of this bit is around 10ft x 10ft, and is very sensitive, so don't feel like it's not working if it's constantly sending an on signal while you're working on it.
 
 ## MP3 Player
 
@@ -128,3 +130,22 @@ The numbers do not have to be in the front without spaces, just the first thing 
 The mode switch on the side determines how the tracks will be played. In once mode, it will play the current track once. In loop mode, it will continuously loop through the whole SD card. In next mode, it will just play the next track, and in all mode, it will play the whole card through once.
 
 You can connect the bit to a speaker to play the music, or output it with the 3.5mm output jack.
+
+## Oscillator
+
+![Oscillator Bit](https://i.shgcdn.com/613261c5-de38-4e25-8647-2cfafdc50719/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The oscillator bit can adjust or create a tone by changing its tune, pitch and waveform.
+
+## How to Use
+
+The oscillator has three settings, tune, pitch, and waveform. The pitch dial is used to adjust the pitch of the bit. A higher value on the dial will mean a higher pitch. The waveform switch can switch between a square and sawtooth waveform, which both produce different sounds.
+
+You can attach the oscillator after a sound producing bit like the [keyboard](#keyboard) to modify its sound. In this case, the tune slide actually does something, as it will modify the tune of the recieved sound. The pitch and waveform dials work the same when modifying sound.
+
+## Pressure Sensor
+
+![Pressure Sensor Bit](https://i.shgcdn.com/bd5b3ece-239b-479a-841b-a6c6e11bee6b/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The pressure sensor works similarly to the [light sensor](#light-sensor), but sends power based on the pressure put on the black circle.
+
