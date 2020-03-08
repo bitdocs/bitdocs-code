@@ -1,4 +1,4 @@
-# Input Bits
+# Sound-Based Input Bits
 
 These are the bits that modify the signal passing through your circuit. This changes the output of [output](/output-ls) bits.
 
@@ -6,11 +6,7 @@ This set of bits can really make your device unique, and helps to define the pur
 
 Many of these bits may sound confusing at first, but if you try them out for a little bit, we're sure you'll get the hang of them.
 
-## Button
-
-![Button Bit](https://i.shgcdn.com/2413271a-cdce-4bab-aeb2-91b2ed6f6522/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-When the button is pressed, it sends an ON signal. When it is not pressed, it sends an OFF signal.
+This set of bits generates or modifies tunes or sound.
 
 ## Delay
 
@@ -23,14 +19,6 @@ The delay bit repeats audio that is given to it depending on a certain time and 
 This bit only works when given a sound with a bit like the [oscillator](#oscillator) or the [keyboard](#keyboard)
 
 This bit has two knobs, time and feedback. The time knob controls the amount of time each sound and each silence lasts for. The feedback knob controls how many times the sound will repeat. If the feedback is turned up to the max, the sound will repeat forever.
-
-## Dimmer
-
-![Dimmer Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/ua9EofWg_720x.jpeg?v=1571439466)
-
-The dimmer bit limits the amount of power that goes through it, thus reducing the intensity of things like [lights](/output-ls) and [buzzers](/output-ls/#buzzer).
-
-The more you turn the dimmer counter-clockwise, the less power there is, until there is no power going through at all. This can also be used to control the motion of the [servo](/output-md/#servo) in TURN mode.
 
 ## Envelope
 
@@ -62,15 +50,9 @@ The octave slide on the left will change the octave, meaning that when the slide
 
 You'll notice there are two output connections. The normal postitioned one will output the sound signal according to what you pressed, the top one will output a normal 5V power signal when a key is pressed. This power output will still adhere to the key mode the keyboard is on.
 
-## Other Info
+### Other Info
 
 This bit can be used in conjuction with the [oscillator](#oscillator) to change the tune, pitch, and waveform of the notes.
-
-## Light Sensor
-
-![Light Sensor Bit](https://cdn.shopify.com/s/files/1/1494/3290/products/0G5dBlAQ_2048x.jpeg?v=1580401388)
-
-This bit will gradually increase power as it is exposed to more and more light, or the reverse in dark mode. Its function is similar to the [button](#button), though it activates gradually with light rather than instantly with a press.
 
 ### How to Use
 
@@ -102,16 +84,6 @@ The mix bit allows you to combine to sound inputs into one output.
 
 You can use something like an [oscillator](#oscillator) to generate the tune for the bit. The two dials on the large portion of the bit control the volume of each input. 
 
-## Motion Trigger
-
-![Motion Trigger Bit](https://i.shgcdn.com/6a256fe4-0415-4c81-ba84-10b830aa2cfc/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The motion trigger bit works similarly to the [button](#button), though instead of sending a signal on a click, it sends a signal when it detects movement.
-
-### Other Info
-
-The range of this bit is around 10ft x 10ft, and is very sensitive, so don't feel like it's not working if it's constantly sending an on signal while you're working on it.
-
 ## MP3 Player
 
 ![MP3 Player Bit](https://i.shgcdn.com/fcfa6a25-66df-4c43-8a26-faae0f0cef79/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
@@ -139,24 +111,6 @@ The oscillator has three settings, tune, pitch, and waveform. The pitch dial is 
 
 You can attach the oscillator after a sound producing bit like the [keyboard](#keyboard) to modify its sound. In this case, the tune slide actually does something, as it will modify the tune of the recieved sound. The pitch and waveform dials work the same when modifying sound.
 
-## Pressure Sensor
-
-![Pressure Sensor Bit](https://i.shgcdn.com/bd5b3ece-239b-479a-841b-a6c6e11bee6b/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The pressure sensor works similarly to the [light sensor](#light-sensor), but sends power based on the pressure put on the black circle.
-
-## Proximity Sensor
-
-![Proximity Sensor Bit](https://i.shgcdn.com/3917d9d1-2892-4519-ad5a-b9c847ae50b5/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-This bit works similarly to the [light sensor](#light-sensor), but sends power based on how close an object is to the sensor.
-
-## Pulse
-
-![Pulse Bit](https://i.shgcdn.com/dec22683-4e1f-495e-a5e2-537823d308d2/-/format/auto/-/preview/3000x3000/-/quality/lighter/0)
-
-The pulse bit sends power out at a consistent and specific rate that is determined by the slider on the bottom of the bit.
-
 ## Random
 
 ![Random Bit](https://i.shgcdn.com/a6351e23-3cea-4958-b620-5d1c3774b93c/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
@@ -168,69 +122,3 @@ The random bit can either send white noise or a random voltage each time a new s
 The noise setting will just send white noise, while the random voltage will create a random voltage that can control the tune of an oscillator.
 
 You will need a [pulse](#pulse) bit to keep generating new tunes, as the bit will only generate a new voltage on a new signal.
-
-## Remote Trigger
-
-![Remote Trigger Bit](https://i.shgcdn.com/09e71eb2-5187-4f93-a007-12b6ca6fc3e1/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The remote trigger bit will send a signal when it recieves an IR signal. Things that can trigger this include your TV remote or the [IR LED](/placeholder).
-
-## Roller Switch
-
-![Roller Switch Bit](https://i.shgcdn.com/9f008c63-5ed7-4661-b84c-389a26757ee8/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The roller switch works like the [button](#button), as when you click the switch, power is let through. However, you can also invert this, by making the power turn off when the top-left switch is set to open.
-
-## Sequencer
-
-![Sequencer Bit](https://i.shgcdn.com/a289d9e0-2791-40da-9275-e019bd05d14f/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The sequencer can activate up to 8 different outputs in a certain order.
-
-### How to Use
-
-The sequencer bit has two settings. The dial in the middle determines how the sequence is progressed. Forward will go 1-8, backwards will go 8-1, pendulum will go 1-8, then 8-1, like a pendulum, and random will simply turn on a random output.
-
-The switch on the side determines how fast the sequence is progressed. In step mode, the next output is activated whenever a new pulse is recieved. You should use this setting with a [pulse](#pulse) bit to control the speed of the sequence. When the setting is on speed, it will progress based on the voltage. The voltage can be controlled with a [dimmer](#dimmer).
-
-## Slide Dimmer
-
-![Slide Dimmer Bit](https://i.shgcdn.com/9e565834-262d-40ef-b7f4-fdbe5c9fbb64/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The slide dimmer works like a normal [dimmer](#dimmer), but uses a slide instead of a dial to adjust voltage.
-
-## Slide Switch
-
-![Slide Switch Bit](https://i.shgcdn.com/bd3f664a-85d8-438d-b4f2-e24a7a48b1bb/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The slide switch lets power through when set to ON, but doesn't when set to OFF.
-
-## Sound Trigger
-
-![Sound Trigger Bit](https://i.shgcdn.com/1cd8f2b6-6710-4a94-b523-d211c69beb15/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The sound trigger will send an ON signal when the sound in the room reaches a certain threshold. This threshold can be changed with the sensitivity slider.
-
-## Temperature Sensor
-
-![Temperature Sensor Bit](https://i.shgcdn.com/413e5535-025a-4c7a-b4fb-3eba9bfb71e4/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The temperature sensor works similarly to the [light sensor](#light-sensor), but reads the temperature instead of light. The bit also outputs the temperature read as a value, so you can attach a [number](/output-md/#number) bit to read the value. The mode switch on the side is used to change the value sent into Celsius or Farenheit.
-
-## Threshold
-
-![Threshold Bit](https://i.shgcdn.com/acf7e36a-7c7c-416c-a9a3-ca02477b1ee8/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The threshold bit doesn't let a signal pass unless it reaches a certain threshold. This is is best suited to be used with sensor bits that have a range of voltage they can produce.
-
-## Timeout
-
-![Timeout Bit](https://i.shgcdn.com/c7540760-50d5-4a7d-834a-2a546c801d4a/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The timeout bit sets a timer when it recieves an ON signal, and changes its output once the timer has run out. The screwdriver dial is used to adjust the length of the timer. The switch can change the mode from on-off (will send an ON signal until timer runs out) to off-on (will send an OFF singal until timer runs out), and vice versa.
-
-## Toggle Switch
-
-![Toggle Switch Bit](https://i.shgcdn.com/6802cdb0-d85d-4346-925a-14a22ce864ca/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
-
-The toggle switch works like the [slide switch](#slide-switch), but uses a lever instead of a slider.

@@ -9,7 +9,10 @@ nav:
     - About: about.md
     - Modules (Bits):
         Power: power.md
-        Inputs: input.md
+        Inputs:
+            Sound: input-so.md
+            Switches: input-sw.md
+            Sensors: input-se.md
         Logic and Wires: logic-wire.md
         Outputs: output.md
 theme:
