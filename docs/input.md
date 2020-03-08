@@ -154,3 +154,69 @@ The pressure sensor works similarly to the [light sensor](#light-sensor), but se
 ![Proximity Sensor Bit](https://i.shgcdn.com/bd5b3ece-239b-479a-841b-a6c6e11bee6b/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
 
 This bit works similarly to the [light sensor](#light-sensor), but sends power based on how close an object is to the sensor.
+
+## Pulse
+
+![Pulse Bit](https://i.shgcdn.com/dec22683-4e1f-495e-a5e2-537823d308d2/-/format/auto/-/preview/3000x3000/-/quality/lighter/0
+
+The pulse bit sends power out at a consistent and specific rate that is determined by the slider on the bottom of the bit.
+
+## Random
+
+![Random Bit](https://i.shgcdn.com/a6351e23-3cea-4958-b620-5d1c3774b93c/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The random bit can either send white noise or a random voltage each time a new signal is sent.
+
+### How to Use
+
+The noise setting will just send white noise, while the random voltage will create a random voltage that can control the tune of an oscillator.
+
+You will need a [pulse](#pulse) bit to keep generating new tunes, as the bit will only generate a new voltage on a new signal.
+
+## Remote Trigger
+
+![Remote Trigger Bit](https://i.shgcdn.com/09e71eb2-5187-4f93-a007-12b6ca6fc3e1/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The remote trigger bit will send a signal when it recieves an IR signal. Things that can trigger this include your TV remote or the [IR LED](/placeholder).
+
+## Roller Switch
+
+![Roller Switch Bit](https://i.shgcdn.com/9f008c63-5ed7-4661-b84c-389a26757ee8/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The roller switch works like the [button](#button), as when you click the switch, power is let through. However, you can also invert this, by making the power turn off when the top-left switch is set to open.
+
+## Sequencer
+
+![Sequencer Bit](https://i.shgcdn.com/a289d9e0-2791-40da-9275-e019bd05d14f/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The sequencer can activate up to 8 different outputs in a certain order.
+
+### How to Use
+
+The sequencer bit has two settings. The dial in the middle determines how the sequence is progressed. Forward will go 1-8, backwards will go 8-1, pendulum will go 1-8, then 8-1, like a pendulum, and random will simply turn on a random output.
+
+The switch on the side determines how fast the sequence is progressed. In step mode, the next output is activated whenever a new pulse is recieved. You should use this setting with a [pulse](#pulse) bit to control the speed of the sequence. When the setting is on speed, it will progress based on the voltage. The voltage can be controlled with a [dimmer](#dimmer).
+
+## Slide Dimmer
+
+![Slide Dimmer Bit](https://i.shgcdn.com/9e565834-262d-40ef-b7f4-fdbe5c9fbb64/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The slide dimmer works like a normal [dimmer](#dimmer), but uses a slide instead of a dial to adjust voltage.
+
+## Slide Switch
+
+![Slide Switch Bit](https://i.shgcdn.com/bd3f664a-85d8-438d-b4f2-e24a7a48b1bb/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The slide switch lets power through when set to ON, but doesn't when set to OFF.
+
+## Sound Trigger
+
+![Sound Trigger Bit](https://i.shgcdn.com/1cd8f2b6-6710-4a94-b523-d211c69beb15/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The sound trigger will send an ON signal when the sound in the room reaches a certain threshold. This threshold can be changed with the sensitivity slider.
+
+## Temperature Sensor
+
+![Temperature Sensor Bit](https://i.shgcdn.com/413e5535-025a-4c7a-b4fb-3eba9bfb71e4/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+The temperature sensor works similarly to the [light sensor](#light-sensor), but reads the temperature instead of light. The bit also outputs the temperature read as a value, so you can attach a [number](/output-md/#number) bit to read the value. The mode switch on the side is used to change the value sent into Celsius or Farenheit.
