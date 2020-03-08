@@ -14,6 +14,7 @@ nav:
         Outputs:
             Lights and Sound: output-ls.md
             Movement and Display: output-md.md
+    - Examples: examples.md
 theme:
     name: cinder
     custom_dir: 'cinder-theme-ext/'
