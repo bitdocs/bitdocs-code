@@ -12,7 +12,7 @@ nav:
         Inputs: input.md
         Logic and Wires:
             Digital Logic: wire-dl.md
-            Wires: wire-w.md
+            Wires: wire.md
             External Connections: wire-et.md
         Outputs:
             Lights and Sound: output-ls.md
