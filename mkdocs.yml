@@ -10,7 +10,10 @@ nav:
     - Modules (Bits):
         Power: power.md
         Inputs: input.md
-        Logic and Wires: logic-wire.md
+        Logic and Wires:
+            Digital Logic: wire-dl.md
+            Wires: wire.md
+            Interfacess: wire-i.md
         Outputs:
             Lights and Sound: output-ls.md
             Movement and Display: output-md.md
