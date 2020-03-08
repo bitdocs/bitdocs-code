@@ -1,4 +1,4 @@
-# External Connections
+# Interfaces
 
 These bits can interface with, or talk to, external computers and devices
 
