@@ -149,3 +149,8 @@ You can attach the oscillator after a sound producing bit like the [keyboard](#k
 
 The pressure sensor works similarly to the [light sensor](#light-sensor), but sends power based on the pressure put on the black circle.
 
+## Proximity Sensor
+
+![Proximity Sensor Bit](https://i.shgcdn.com/bd5b3ece-239b-479a-841b-a6c6e11bee6b/-/format/auto/-/preview/3000x3000/-/quality/lighter/)
+
+This bit works similarly to the [light sensor](#light-sensor), but sends power based on how close an object is to the sensor.
