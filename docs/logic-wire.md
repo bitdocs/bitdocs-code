@@ -95,7 +95,7 @@ To learn more about how to use the Arduino Bit, check out our Arduino resources 
 
 **NOTE: As of currently, the CloudBit is discontinued and the CloudBit software service is down for maintenance.**
 
-This bit provides an easy way to create IoT devices,using the Internet of Things. When it recieves an input, it can send it out to the internet. It can also recieve a signal from the internet and output it into your circuit.
+This bit provides an easy way to create IoT devices, using the Internet of Things. When it recieves an input, it can send it out to the internet. It can also recieve a signal from the internet and output it into your circuit.
 
 ### How to Use
 
