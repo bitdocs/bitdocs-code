@@ -6,4 +6,4 @@ For students around us, the littleBits can seem confusing, but we're here to sho
 
 To start, we recommend looking at this helpful [examples](https://inventtolearn.com/littlebitsall.pdf) page where you can find some examples of simple circuits.
 
-If you need any support, email us at <webmaster@bitdocs.ml>[.](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+If you need any support, email us at <webmaster@bitdocs.ml>.
